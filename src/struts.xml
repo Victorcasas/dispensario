@@ -40,13 +40,13 @@
 <!-- </package>	 -->
 		
 <package name="default" namespace="" extends="struts-default">
-<action name="Inicio" class="dispensario.DispensarioAction" method="inicio">
+<action name="Inicio" class="DispensarioAction" method="inicio">
 <result name="success">/Dispensario.jsp</result>
 </action>
-<action name="*Variedad" class="dispensario.DispensarioAction" method="{1}">
+<action name="*Variedad" class="DispensarioAction" method="{1}">
 <result name="success">/Dispensario.jsp</result>
 </action>
-<action name="*Socio" class="dispensario.DispensarioAction" method="{1}">
+<action name="*Socio" class="DispensarioAction" method="{1}">
 <result name="success">/Dispensario.jsp</result>
 </action>
 </package>	
