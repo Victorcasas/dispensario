@@ -4,8 +4,8 @@
 	<groupId>dispensario</groupId>
 	<artifactId>dispensario</artifactId>
 	<packaging>war</packaging>
-	<version>1.0</version>
-	<name>dispensario</name>
+	<version>2.0</version>
+	<name>Dispensario</name>
 	<repositories>
 		<repository>
 			<id>eap</id>
