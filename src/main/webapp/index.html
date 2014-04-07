@@ -1,1 +1,1 @@
-<META HTTP-EQUIV="Refresh" CONTENT="0;URL=listarVariedad.action">
+<META HTTP-EQUIV="Refresh" CONTENT="0;URL=inicio.action">

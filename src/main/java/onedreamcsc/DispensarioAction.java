@@ -3,8 +3,6 @@ package onedreamcsc;
 import java.util.ArrayList;
 import java.util.List;
 
-
-
 public class DispensarioAction
 {
 	private List<String> selectList=new ArrayList<String>();
@@ -41,6 +39,7 @@ public class DispensarioAction
 	
 	public String inicio(){
 		dispensario();
+		
 		return "success";
 	}
 		
