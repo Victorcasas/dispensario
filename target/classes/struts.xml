@@ -43,10 +43,10 @@
 <action name="Inicio" class="DispensarioAction" method="inicio">
 <result name="success">/Dispensario.jsp</result>
 </action>
-<action name="*Variedad" class="DispensarioAction" method="{1}">
+<action name="*Variedad" class="org.onedreamcsc.DispensarioAction" method="{1}">
 <result name="success">/Dispensario.jsp</result>
 </action>
-<action name="*Socio" class="DispensarioAction" method="{1}">
+<action name="*Socio" class="org.onedreamcsc.DispensarioAction" method="{1}">
 <result name="success">/Dispensario.jsp</result>
 </action>
 </package>	
