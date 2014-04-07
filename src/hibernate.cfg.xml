@@ -22,8 +22,8 @@
         <!-- Drop and re-create the database schema on startup -->
 <property name="hbm2ddl.auto">create</property>
 
-	<mapping class="main.java.Socio"></mapping>
-	<mapping class="main.java.Variedad"></mapping>
+	<mapping class="Socio"></mapping>
+	<mapping class="Variedad"></mapping>
 
     </session-factory>
 
