@@ -8,6 +8,10 @@
 <s:submit value="Alta de Socio" name="submit" /> 
 </s:form>
 <hr>
+<s:form action="listarVariedad">
+<s:submit value="Listar Variedades" name="submit" /> 
+</s:form>
+<hr>
 <s:form action="crearVariedad">
 <s:textfield name="codigo" label="Variedad" value=""/>
 <s:textfield name="aporte" label="Cantidad" value=""/>
@@ -42,10 +46,7 @@
 <s:submit value="Retirar" name="submit" /> 
 </s:form>
 <hr>
-<s:form action="listarVariedad">
-<s:submit value="Listar Variedades" name="submit" /> 
-</s:form>
-<hr>
+
 <s:if test='%{nombre!=null && nombre!=""}'>
 Resultado OK!!!
 <br>
