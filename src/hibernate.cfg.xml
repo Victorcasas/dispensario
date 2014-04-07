@@ -22,8 +22,8 @@
         <!-- Drop and re-create the database schema on startup -->
 <property name="hbm2ddl.auto">create</property>
 
-	<mapping class="Socio"></mapping>
-	<mapping class="Variedad"></mapping>
+	<mapping class="paco.Socio"></mapping>
+	<mapping class="paco.Variedad"></mapping>
 
     </session-factory>
 
