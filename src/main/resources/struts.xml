@@ -40,7 +40,7 @@
 <!-- </package>	 -->
 		
 <package name="default" namespace="" extends="struts-default">
-<action name="inicio" class="onedreamcsc.DispensarioAction" method="inicio">
+<action name="*" class="onedreamcsc.DispensarioAction" method="{1}">
 <result name="success">/Dispensario.jsp</result>
 </action>
 <action name="*Variedad" class="onedreamcsc.DispensarioAction" method="{1}">
