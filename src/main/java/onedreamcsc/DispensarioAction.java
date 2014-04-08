@@ -39,7 +39,6 @@ public class DispensarioAction
 	
 	public String iniciar(){
 		crearDispensario();
-		
 		return "success";
 	}
 		
