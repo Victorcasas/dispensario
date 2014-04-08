@@ -37,7 +37,7 @@ public class DispensarioAction
 
 	private List<Variedad> variedades=variedadDAO.list();
 	
-	public String iniciar(){
+	public String inicio(){
 		crearDispensario();
 		return "success";
 	}
