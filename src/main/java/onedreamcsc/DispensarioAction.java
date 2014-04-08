@@ -37,20 +37,20 @@ public class DispensarioAction
 
 	private List<Variedad> variedades=variedadDAO.list();
 	
-	public String inicio(){
-		dispensario();
+	public String iniciar(){
+		crearDispensario();
 		
 		return "success";
 	}
 		
-	public void dispensario(){
+	public void crearDispensario(){
 		for (Variedad variedad:getVariedades()) {
 			selectList.add(variedad.getVariedadNombre());
 		}
 	}
 	
-	public String alta() {
-		dispensario();
+	public String inscribir() {
+		crearDispensario();
 		Socio socio = new Socio();
 		socio.setNombre(nombre);
 		socio.setNumero(numero);
@@ -59,7 +59,7 @@ public class DispensarioAction
 	}
 	
 	public String crear() {
-		dispensario();
+		crearDispensario();
 		setVariedad(new Variedad());
 		long inicial = Long.parseLong(aporte);
 		variedad.setVariedadNombre(codigo);
@@ -70,7 +70,7 @@ public class DispensarioAction
 	}
 		
 	public String retirar() {
-		dispensario();
+		crearDispensario();
 		setVariedad(variedadDAO.load(codigo));
 		long l = Long.parseLong(retirada);
 		if (variedad.getVariedadCantidad()-l>=0) { 
@@ -82,7 +82,7 @@ public class DispensarioAction
 	}
 	
 	public String aportar() {
-		dispensario();
+		crearDispensario();
 		setVariedad(variedadDAO.load(codigo));	
 		long l = Long.parseLong(aporte);
 		getVariedad().setVariedadCantidad(variedad.getVariedadCantidad()+l);
@@ -92,7 +92,7 @@ public class DispensarioAction
 	}
 	
 	public String listar() {
-		dispensario();
+		crearDispensario();
 		setVariedades(variedadDAO.list());
 		return "success";
 	}
