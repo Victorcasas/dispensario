@@ -40,13 +40,13 @@
 <!-- </package>	 -->
 		
 <package name="default" namespace="" extends="struts-default">
-<action name="*" class="onedreamcsc.DispensarioAction" method="{1}">
+<action name="*" class="main.java.onedreamcsc.DispensarioAction" method="{1}">
 <result name="success">/Dispensario.jsp</result>
 </action>
-<action name="*Variedad" class="onedreamcsc.DispensarioAction" method="{1}">
+<action name="*Variedad" class="main.java.onedreamcsc.DispensarioAction" method="{1}">
 <result name="success">/Dispensario.jsp</result>
 </action>
-<action name="*Socio" class="onedreamcsc.DispensarioAction" method="{1}">
+<action name="*Socio" class="main.java.onedreamcsc.DispensarioAction" method="{1}">
 <result name="success">/Dispensario.jsp</result>
 </action>
 </package>	

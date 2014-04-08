@@ -22,8 +22,8 @@
         <!-- Drop and re-create the database schema on startup -->
 <!-- <property name="hbm2ddl.auto">create</property> -->
 
-	<mapping class="onedreamcsc.Socio"></mapping>
-	<mapping class="onedreamcsc.Variedad"></mapping>
+	<mapping class="main.java.onedreamcsc.Socio"></mapping>
+	<mapping class="main.java.onedreamcsc.Variedad"></mapping>
 
     </session-factory>
 
